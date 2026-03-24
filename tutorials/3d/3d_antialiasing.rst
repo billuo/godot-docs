@@ -109,7 +109,7 @@ objects. Rendering at a higher framerate will allow TAA to converge faster,
 therefore making those ghosting artifacts less visible.
 
 Temporal antialiasing can be enabled in the Project Settings by changing the value of the
-:ref:`Rendering > Anti Aliasing > Quality > TAA<class_ProjectSettings_property_rendering/anti_aliasing/quality/use_taa>`
+:ref:`Rendering > Anti Aliasing > Quality > Use TAA<class_ProjectSettings_property_rendering/anti_aliasing/quality/use_taa>`
 setting.
 
 Comparison between no antialiasing (left) and TAA (right):
@@ -263,7 +263,7 @@ an effect on roughness map rendering itself, its impact is limited there.
 The screen-space roughness limiter is enabled by default; it doesn't require
 any manual setup. It has a small performance impact, so consider disabling it
 if your project isn't affected by specular aliasing much. You can disable it
-with the **Rendering > Quality > Screen Space Filters > Screen Space Roughness Limiter**
+with the **Rendering > Anti Aliasing > Screen Space Roughness Limiter > Enabled**
 project setting.
 
 Texture roughness limiter on import
