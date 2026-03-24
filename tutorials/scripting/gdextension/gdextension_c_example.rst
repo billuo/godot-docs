@@ -70,7 +70,7 @@ folder. You can copy this file to the example folder to have it handy.
 .. note::
     This extension is targeting Godot 4.2, but it should work on later versions as
     well. If you want to target a different minimal version, make sure to get the
-    header and the JSON from the version Godot version you are targeting.
+    header and the JSON from the Godot version you are targeting.
 
 Buildsystem
 -----------
@@ -858,7 +858,7 @@ First, you receive pointers to Variants instead of exact types. There's also the
 amount of arguments and an error struct that you can set if something goes
 wrong.
 
-In order to check the type and also extract interact with Variant, we will need
+In order to check the type and also interact with Variant, we will need
 a few more functions from the GDExtension API. So let's expand our wrapper
 structs:
 
