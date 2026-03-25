@@ -321,10 +321,10 @@ There are two ways to apply a material to a CSG node:
   apply their material to the nodes they're "digging" into.
 
 To apply triplanar mapping to a CSG node, select it, go to the Inspector, click
-the **[empty]** text next to **Material Override** (or **Material** for
+the **<empty>** text next to **Material Override** (or **Material** for
 individual CSG nodes). Choose **New StandardMaterial3D**. Click the newly created
 material's icon to edit it. Unfold the **Albedo** section and load a texture
-into the **Texture** property. Now, unfold the **Uv1** section and check
+into the **Texture** property. Now, unfold the **UV1** section and check
 **Triplanar**. You can change the texture offset and scale on each axis by
 playing with the **Scale** and **Offset** properties just above. Higher values
 in the **Scale** property will cause the texture to repeat more often.
