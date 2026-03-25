@@ -214,7 +214,7 @@ Transparency is supported, but the root viewport **must** have its
 ``transparent_bg`` property set to ``true`` for transparency to be visible on
 the output image. This can be achieved by enabling the **Rendering > Transparent
 Background** advanced project setting. **Display > Window > Size > Transparent**
-and **Display > Window > Per Pixel Transparency > Enabled** can optionally be
+and **Display > Window > Per Pixel Transparency > Allowed** can optionally be
 enabled to allow transparency to be previewed while recording the video, but
 they do not have to be enabled for the output image to contain transparency.
 
