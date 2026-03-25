@@ -264,8 +264,8 @@ physics engines use this to detect collision.
 
 With a point, just checking if a plane
 returns a positive distance is enough to tell if the point is outside.
-With another polygon, we must find a plane where *all* *the* *other*
-*polygon* *points* return a positive distance to it. This check is
+With another polygon, we must find a plane where *all the other polygon points*
+return a positive distance to it. This check is
 performed with the planes of A against the points of B, and then with
 the planes of B against the points of A:
 
