@@ -694,7 +694,7 @@ converter doesn't support updating existing setups:
 +---------------------+-----------------------+                                                                            |
 | DynamicFontData     | FontFile              |                                                                            |
 +---------------------+-----------------------+----------------------------------------------------------------------------+
-| ClippedCamera       | Camera2D or Camera3D  | Camera's pyramid shape was moved to :ref:'class_Camera3D'.                 |
+| ClippedCamera       | Camera2D or Camera3D  | Camera's pyramid shape was moved to :ref:`class_Camera3D`.                 |
 +---------------------+-----------------------+                                                                            |
 | InterpolatedCamera  | Camera2D or Camera3D  |                                                                            |
 +---------------------+-----------------------+----------------------------------------------------------------------------+
