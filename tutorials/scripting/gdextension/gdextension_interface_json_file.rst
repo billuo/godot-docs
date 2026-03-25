@@ -189,7 +189,7 @@ They have the following keys:
 - ``parent``: The optional name of another handle type, if this handle type is the const or uninitialized
   version of the parent type. This only makes sense if either ``is_const`` or ``is_uninitialized`` is true.
 
-Handles are the size of pointers on the given architecture (so, 64-bit on x86_64 and 32-bit on x86_32,
+Handles are of the size of pointers on the given architecture (so, 64-bit on x86_64 and 32-bit on x86_32,
 for example).
 
 Example
