@@ -235,7 +235,7 @@ dialog, as it lets you preview your changes without having to reimport the audio
 Bar Beats
 ~~~~~~~~~
 
-The number of bars within a single beat in the audio track. This is only
+The number of beats within a single bar in the audio track. This is only
 relevant for music that wishes to make use of interactive music functionality
 , not sound effects.
 
