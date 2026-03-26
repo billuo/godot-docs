@@ -19,7 +19,7 @@ is called *one-click deploy*.
 
 .. note::
 
-   One-click deploy is only available once you've added an export template
+   One-click deploy is only available once you've added an export preset
    marked as **Runnable** in the Export dialog. You can mark several export
    presets as runnable, but only one preset per platform may be marked as
    runnable. If you mark a second preset in a given platform as runnable, the
