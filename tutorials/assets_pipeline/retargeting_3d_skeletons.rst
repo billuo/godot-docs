@@ -153,8 +153,8 @@ Unifies the models' Bone Rests by overwriting it to match the reference poses de
 
 .. note:: This is the most important option for sharing animations in Godot 4,
           but be aware that this option can produce horrible results **if the original Bone Rest set externally is important**.
-          If you want to share animations with keeping the original Bone Rest,
-          consider to use the `Realtime Retarget Module <https://github.com/TokageItLab/realtime_retarget>`__.
+          If you want to share animations while keeping the original Bone Rest,
+          consider using the `Realtime Retarget Module <https://github.com/TokageItLab/realtime_retarget>`__.
 
 Fix Silhouette
 ^^^^^^^^^^^^^^
