@@ -114,4 +114,4 @@ The merge by edge connection happens in a second pass for all still unmerged edg
 
 So apart from the general rule to have as few polygon edges as possible, as many edges as possible should be merged by vertex upfront so only a few edges are left for the more costly edge connection calculation.
 The debug Navigation PerformanceMonitor can be used to get statistics on how many polygons and edges are available and how many of them are unmerged or not merged by vertex.
-If the ratio between vertex merged and edge connections is way off (vertex should be significantly higher) the navigation meshes are properly created or placed very inefficient.
+If the ratio between vertex merged and edge connections is way off (vertex should be significantly higher) the navigation meshes are improperly created or placed very inefficient.
