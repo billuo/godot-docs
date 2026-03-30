@@ -218,37 +218,37 @@ All project settings have been moved from the ``physics/jolt_3d`` category to
 On top of that, there's been some renaming and refactoring of the individual project
 settings as well. These include:
 
-- ``sleep/enabled`` is now ``simulation/allow_sleep.``
-- ``sleep/velocity_threshold`` is now ``simulation/sleep_velocity_threshold.``
-- ``sleep/time_threshold`` is now ``simulation/sleep_time_threshold.``
+- ``sleep/enabled`` is now ``simulation/allow_sleep``.
+- ``sleep/velocity_threshold`` is now ``simulation/sleep_velocity_threshold``.
+- ``sleep/time_threshold`` is now ``simulation/sleep_time_threshold``.
 - ``collisions/use_shape_margins`` is now ``collisions/collision_margin_fraction``,
   where a value of 0 is equivalent to disabling it.
-- ``collisions/use_enhanced_internal_edge_removal`` is now ``simulation/use_enhanced_internal_edge_removal.``
-- ``collisions/areas_detect_static_bodies`` is now ``simulation/areas_detect_static_bodies.``
-- ``collisions/report_all_kinematic_contacts`` is now ``simulation/generate_all_kinematic_contacts.``
-- ``collisions/soft_body_point_margin`` is now ``simulation/soft_body_point_radius.``
-- ``collisions/body_pair_cache_enabled is now simulation/body_pair_contact_cache_enabled.``
-- ``collisions/body_pair_cache_distance_threshold`` is ``now simulation/body_pair_contact_cache_distance_threshold.``
-- ``collisions/body_pair_cache_angle_threshold is now simulation/body_pair_contact_cache_angle_threshold.``
+- ``collisions/use_enhanced_internal_edge_removal`` is now ``simulation/use_enhanced_internal_edge_removal``.
+- ``collisions/areas_detect_static_bodies`` is now ``simulation/areas_detect_static_bodies``.
+- ``collisions/report_all_kinematic_contacts`` is now ``simulation/generate_all_kinematic_contacts``.
+- ``collisions/soft_body_point_margin`` is now ``simulation/soft_body_point_radius``.
+- ``collisions/body_pair_cache_enabled`` is now ``simulation/body_pair_contact_cache_enabled``.
+- ``collisions/body_pair_cache_distance_threshold`` is ``now simulation/body_pair_contact_cache_distance_threshold``.
+- ``collisions/body_pair_cache_angle_threshold`` is now ``simulation/body_pair_contact_cache_angle_threshold``.
 - ``continuous_cd/movement_threshold`` is now ``simulation/continuous_cd_movement_threshold``,
   but expressed as a fraction instead of a percentage.
 - ``continuous_cd/max_penetration`` is now ``simulation/continuous_cd_max_penetration``,
   but expressed as a fraction instead of a percentage.
-- ``kinematics/use_enhanced_internal_edge_removal`` is now ``motion_queries/use_enhanced_internal_edge_removal.``
+- ``kinematics/use_enhanced_internal_edge_removal`` is now ``motion_queries/use_enhanced_internal_edge_removal``.
 - ``kinematics/recovery_iterations`` is now ``motion_queries/recovery_iterations``,
   but expressed as a fraction instead of a percentage.
-- ``kinematics/recovery_amount`` is now ``motion_queries/recovery_amount.``
+- ``kinematics/recovery_amount`` is now ``motion_queries/recovery_amount``.
 - ``queries/use_legacy_ray_casting`` has been removed.
-- ``solver/position_iterations`` is now ``simulation/position_steps.``
-- ``solver/velocity_iterations`` is now ``simulation/velocity_steps.``
+- ``solver/position_iterations`` is now ``simulation/position_steps``.
+- ``solver/velocity_iterations`` is now ``simulation/velocity_steps``.
 - ``solver/position_correction`` is now ``simulation/baumgarte_stabilization_factor``,
   but expressed as a fraction instead of a percentage.
-- ``solver/active_edge_threshold`` is now ``collisions/active_edge_threshold.``
-- ``solver/bounce_velocity_threshold`` is now ``simulation/bounce_velocity_threshold.``
-- ``solver/contact_speculative_distance`` is now ``simulation/speculative_contact_distance.``
-- ``solver/contact_allowed_penetration`` is now ``simulation/penetration_slop.``
+- ``solver/active_edge_threshold`` is now ``collisions/active_edge_threshold``.
+- ``solver/bounce_velocity_threshold`` is now ``simulation/bounce_velocity_threshold``.
+- ``solver/contact_speculative_distance`` is now ``simulation/speculative_contact_distance``.
+- ``solver/contact_allowed_penetration`` is now ``simulation/penetration_slop``.
 - ``limits/max_angular_velocity`` is now stored as radians instead.
-- ``limits/max_temporary_memory`` is now ``limits/temporary_memory_buffer_size.``
+- ``limits/max_temporary_memory`` is now ``limits/temporary_memory_buffer_size``.
 
 Joint nodes
 ~~~~~~~~~~~
