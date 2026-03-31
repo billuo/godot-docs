@@ -295,9 +295,9 @@ function which lets you download any generated buffer.
 
 Here is a minimal example on how to use it:
 
-extends Node
-
 .. code-block:: gdscript
+
+    extends Node
 
     func _ready():
         # Asks the user download a file called "hello.txt" whose content will be the string "Hello".
